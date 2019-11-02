@@ -7,3 +7,4 @@ else
 fi
 sudo docker build -f Dockerfile -t $TRAVIS_REPO_SLUG:$TAG .
 sudo docker push $TRAVIS_REPO_SLUG:$TAG
+
